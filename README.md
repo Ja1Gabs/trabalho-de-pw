@@ -1,27 +1,22 @@
-# trabalho_pw
-<head>
-Trabalho de hospedar um site
-esse site não tem proposito é apenas um teste para o projeto final
-portanto ele só serve para saber se o site está online
+CREATE TABLE customers (
+  id int(11) NOT NULL,
+  name varchar(255) NOT NULL,
+  cpf_cnpj varchar(14) NOT NULL,
+  birthdate date NOT NULL,
+  address varchar(255) NOT NULL,
+  hood varchar(100) NOT NULL,
+  zip_code int(8) NOT NULL,
+  city varchar(100) NOT NULL,
+  state varchar(100) NOT NULL,
+  phone int(13) NOT NULL,
+  mobile int(13) NOT NULL,
+  ie int(11) NOT NULL,
+  created datetime NOT NULL,
+  modified datetime NOT NULL
+);
 
-se você está funcionou
+ALTER TABLE customers
+  ADD PRIMARY KEY (id);
   
-  
-  
-  
-  
-  
-  
-  
-
-<head/>
-  <body>
-    <h1>
-      <b>
-        <i>
-      (Henrique/Érik é bosta) 
-agora o mundo inteiro sabe disso
-          <i/>
-          <b/>
-          
- 
+ALTER TABLE customers
+  MODIFY id int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
