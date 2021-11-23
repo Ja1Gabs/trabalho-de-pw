@@ -6,12 +6,15 @@ portanto ele só serve para saber se o site está online
 
 se você está funciou 
 
-(Henrique bosta) 
-agora o mundo inteiro sbe disso
 <head/>
   <body>
     <h1>
-      (Henrique bosta) 
-agora o mundo inteiro sbe disso
+      <b>
+        <i>
+      (Henrique/Érik é bosta) 
+agora o mundo inteiro sabe disso
+          <i/>
+          <b/>
+          
      <h1/>
       <body/>
